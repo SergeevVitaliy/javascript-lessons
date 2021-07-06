@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div> 
+      <script>
+        "use strict";
+      
+      let isname = prompt('Как тебя зовут?');
+      let age = prompt('Сколько тебе лет?');
+      alert(`Я ${isname} мне ${age}`);
+
+      
+      </script>
+      
+
+        <script>
+          let inputName = `Ваше Имя?`;
+          const name = prompt(inputName);
+
+          const link = `https://www.english.kh.ua/`;
+          var msgGolink = `Тогда ${name} перейдите по ссылке ${link} и у Вас все получится`;
+          var nolink = `Тогда ${name} Вы не сможете общаться с иностранцами`;
+          const msg = `Хочешь выучить английский ${name}?Нажмите Ок, если да или отмена, если нет`;
+
+          const youname = confirm(msg);
+
+          if (youname === true) {
+              alert(msgGolink);
+              alert(link);             
+          }
+          if (youname === false) {
+              alert(nolink);
+          }
+          
+        </script>
+      
+    
+    </div>
+  </body>
+</html>
